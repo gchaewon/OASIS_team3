@@ -1,0 +1,10 @@
+[1] Oasis Dataset 1 사용
+https://github.com/clin-projects/MRI-alzheimers-classification-OASIS1-
+
+[2] 동일 목표의 다른 데이터셋 모델
+https://www.kaggle.com/code/jeongwoopark/alzheimer-detection-and-classification-98-7-acc
+- 98.7% acc
+https://github.com/anilmenon14/OASIS_CNN_dementia_patterns
+- Oasis 1, 2
+https://github.com/GMattheisen/predicting_Alzheimers_from_MRI
+- Oasis 1, 3
