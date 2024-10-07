@@ -91,3 +91,8 @@ datagen = ImageDataGenerator(
 )
 ```
 
+**5. 참고하면 좋을 것 같은 캐글**
+
+[Classification model 모음](https://www.kaggle.com/datasets/ninadaithal/imagesoasis/data)
+
+[Validation Accuracy가 높은 모델](https://www.kaggle.com/code/ahnaftahmeed/alzheimer-detection-using-cnn)
