@@ -1,5 +1,5 @@
-data/
-dataset/
 .DS_Store
+# data 
 newdata/
 newdataset/
+kaggle/
