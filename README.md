@@ -115,10 +115,12 @@ EffNet.trainable = True
 trainable =true
 ```
 위 처럼 설정하면 잘 터지고 무거움 
+
 GPU 말고 CPU로 사용했을 때 배치 사이즈 32까지 문제 없었음 (128은 메모리 부족 이슈)
 
 
 **2. 이진 분류모델 validation accuracy의 한계 **
+
 기존 데이터로 학습했을 때 최대 validation accuracy는 0.75까지 나옴 
 
 이진	모델 특성상 데이터 자체가 부족한 상황에서 validation accuracy를 늘리기 어려움
@@ -126,11 +128,15 @@ GPU 말고 CPU로 사용했을 때 배치 사이즈 32까지 문제 없었음 (1
 SMOTE로 증강해보는 건 어떨지 제안
 
 **3. Batch size와 Validation Accuarcy 관계**
+
 [참고 kaggle](https://www.kaggle.com/code/ahnaftahmeed/alzheimer-detection-using-cnn)
+
 validation accuracy가 높게 나온 모델의 경우 batch size가 128로 엄청 나게 컸음
+
 그대신 epoch가 15 정도로 작아서 총 소요 시간은 27분 정도
 
 이진 분류 모델 개선 시 batchsize를 더 늘리고 epoch를 줄이는 방식을 추가 도입해볼 것을 제안
+
 다른 파라미터도 위 모델과 유사하게 진행해보고 다중 분류 모델과 비교하는 방식을 채택해도 좋을 것 같음
 
 
